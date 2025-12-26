@@ -1,7 +1,7 @@
 import image from '../assets/image.png'
 function Hero() {
     return (
-        <section id="#about" className="flex items-center justify-center min-h-screen bg-black pt-20 px-4 md:px-8 overflow-hidden">
+        <section id="#about" className="flex items-center justify-center min-h-screen bg-black pt-20 px-4 md:px-8  mt-5 overflow-hidden">
             <div
                 data-aos='zoom-in'
                 data-aos-duration='1500'
@@ -20,18 +20,18 @@ function Hero() {
                     >   
                         <h1 className="text-5xl md:text-6xl font-bold text-[pink] leading-tight">Homemade cake with { }
                             <span data-aos='fade-right'
-                                data-aos-delay='700'
+                                data-aos-delay='500'
                                 className="text-black"> Delicious flavors
                             </span>
                         </h1>
                         <p data-aos='fade-up'
-                            data-aos-delay='1000'>
+                            data-aos-delay='700'>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente possimus odio enim dolor officia, maiores dolore cum repellat at ipsa omnis quisquam excepturi eum magnam tempore aliquam doloribus? Cupiditate, laudantium.
                         </p>
                         <div data-aos='fade-up'
-                            data-aos-delay='1200'
+                            data-aos-delay='800'
                             className="items-center">
-                            <button className="bg-black rounded-full px-8 py-4 mt-5 hover:bg-[#444] transition-all duration-300 hover:scale-105">Order Now</button>
+                            <button className="bg-black rounded-full px-8 py-4 mt-5 hover:bg-[#444] hover:text-[#f1062d] transition-all duration-300 hover:scale-103">Order Now</button>
                         </div>
                     </div>
                 </div>
@@ -44,7 +44,7 @@ function Hero() {
                     data-aos-easing='ease-out-cubic'
                     className="relative mt-10"
                     >
-                        <img src={image} alt="" className='w-350 md:w-660 md:h-720px' />
+                        <img src={image} alt="" className='w-350 md:w-660 md:h-720px object-contain drop-shadow-2xl' />
                     </div>
 
                 </div>
