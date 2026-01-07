@@ -6,6 +6,7 @@ import AOS, { init } from 'aos'
 import 'aos/dist/aos.css'
 import { useEffect } from 'react'
 import Categories from './components/Categories.jsx'
+import About from './components/About.jsx'
 
 function App() {
 useEffect(() => {
@@ -22,6 +23,7 @@ useEffect(() => {
  <Hero/>
  <Product />
  <Categories />
+ <About/>
  </>
   )
 }
