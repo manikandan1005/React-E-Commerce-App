@@ -5,7 +5,9 @@ import img3 from '/src/assets/cakes/abt3.avif'
 
 
 function About(){
-
+    const text1='We are passionate about creating handcrafted cakes that add sweetness to every celebration. What started as a love for baking has grown into a commitment to deliver cakes that combine great taste, premium quality, and beautiful designs.'
+    const text2='Using carefully selected ingredients, we ensure every cake is fresh, flavorful, and made with attention to detail. From classic recipes to custom-designed cakes, we work to match your ideas and make each occasion truly special.'
+    const text3='With a 24/7 online store and express delivery, ordering your favorite cake is simple and convenient. Customer satisfaction is our priority, and we strive to provide reliable service and cakes you can trust.'
     return(
         <div className="min-h-screen overflow-hidden py-20 bg-black" id="#about">
             <section className="flex items-center justify-center rounded-4xl ">
@@ -26,11 +28,15 @@ function About(){
                     <p
                     data-aos='fade-up'
                     data-aos-delay='700'
-                    data-aos-duration='800'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia dolorum a iusto unde sapiente deserunt maiores culpa error dolore odit at pariatur, ut harum dolorem possimus, alias blanditiis eius atque.</p>
+                    data-aos-duration='800'>{text1}</p>
                     <p 
                     data-aos='fade-up'
-                    data-aos-delay='700'
-                    data-aos-duration='800'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima error unde omnis. Unde doloremque animi quos, aliquid nobis eligendi laborum, doloribus ipsa provident perspiciatis voluptatem vitae, ex autem cum corporis!</p>
+                    data-aos-delay='900'
+                    data-aos-duration='800'>{text2}</p>
+                    <p 
+                    data-aos='fade-up'
+                    data-aos-delay='1100'
+                    data-aos-duration='800'>{text3}</p>
                 </div>
 
                 <div data-aos='fade-up'
@@ -66,13 +72,13 @@ function About(){
                             data-aos-delay='600'
                             data-aos-duration='1000'
                             className=" relative -rotate-4">
-                                <img src={img1} alt="" className="rounded-2xl shadow-lg w-full h-40 lg:h-64 border-white object-cover border-4"/>
+                                <img src={img1} alt="" className="rounded-2xl shadow-lg w-full h-40 lg:h-64 border-white object-cover border-4 hover:scale-105"/>
 
                             </div>
                             <div data-aos='fade-left'
                         data-aos-delay='800'
                         className="relative rotate-4">
-                            <img src={img2} alt="" className="w-full rounded-2xl shadow-lg border-4 border-white h-40 lg:h-64 object-cover" />
+                            <img src={img2} alt="" className="w-full rounded-2xl shadow-lg border-4 border-white h-40 lg:h-64 object-cover hover:scale-105" />
                         </div>
                         </div>
 
@@ -81,13 +87,13 @@ function About(){
                             data-aos-delay='800'
                             data-aos-duration='1000'
                             className=" relative rotate-4">
-                                <img src={img3} alt="" className="rounded-2xl shadow-lg w-full h-40 lg:h-64 border-white object-cover border-4"/>
+                                <img src={img3} alt="" className="rounded-2xl shadow-lg w-full h-40 lg:h-64 border-white object-cover border-4 hover:scale-105"/>
 
                             </div>
                             <div data-aos='fade-left'
                         data-aos-delay='900'
                         className="relative -rotate-4">
-                            <img src={img1} alt="" className="w-full rounded-2xl shadow-lg border-4 border-white lg:h-64 h-40 object-cover" />
+                            <img src={img1} alt="" className="w-full rounded-2xl shadow-lg border-4 border-white lg:h-64 h-40 object-cover hover:scale-105" />
                         </div>
                         </div>
                         

@@ -7,6 +7,7 @@ import 'aos/dist/aos.css'
 import { useEffect } from 'react'
 import Categories from './components/Categories.jsx'
 import About from './components/About.jsx'
+import Service from './components/Service.jsx'
 
 function App() {
 useEffect(() => {
@@ -24,6 +25,7 @@ useEffect(() => {
  <Product />
  <Categories />
  <About/>
+ <Service />
  </>
   )
 }

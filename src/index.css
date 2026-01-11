@@ -1,1 +1,5 @@
 @import "tailwindcss";
+nav>div>ul>li>a:hover{
+    /* border: 2px solid; */
+    border-bottom:2px solid #f1062d;
+}

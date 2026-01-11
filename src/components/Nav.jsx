@@ -23,7 +23,7 @@ function Nav() {
                 <ul className="hidden  md:flex items-center gap-9 text-2xl text-[#fff]">
                     {nav_item.map((i) => (
                         <li key={i.name}>
-                            <a href={i.href} className="text-[#fff] hover:bg-[#f1062d] rounded-full px-4 py-1 transition md:py-2">{i.name}</a>
+                            <a href={i.href} className="text-[#fff] hover:text-[#f1062d]  px-4 py-1 transition md:py-2">{i.name}</a>
                         </li>
                     ))}
                 </ul>
