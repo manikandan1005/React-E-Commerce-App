@@ -9,8 +9,8 @@ function About(){
     const text2='Using carefully selected ingredients, we ensure every cake is fresh, flavorful, and made with attention to detail. From classic recipes to custom-designed cakes, we work to match your ideas and make each occasion truly special.'
     const text3='With a 24/7 online store and express delivery, ordering your favorite cake is simple and convenient. Customer satisfaction is our priority, and we strive to provide reliable service and cakes you can trust.'
     return(
-        <div className="min-h-screen overflow-hidden py-20 bg-black" id="#about">
-            <section className="flex items-center justify-center rounded-4xl ">
+        <section className="min-h-screen overflow-hidden py-25 bg-black" id="about">
+            <div className="flex items-center justify-center rounded-4xl ">
                 <div data-aos='zoom-in'
                 data-aos-duration='1200'
                 className="relative w-full max-w-6xl mx-3 rounded-4xl shadow-2xl flex flex-col lg:flex-row  justify-between overflow-hidden p-3 md:p-16 bg-[#efa4b1]">
@@ -100,8 +100,8 @@ function About(){
                         
                     </div>
                 </div>
-            </section>
-        </div>
+            </div>
+        </section>
     );
 }
 export default About;

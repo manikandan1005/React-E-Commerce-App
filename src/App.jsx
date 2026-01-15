@@ -8,6 +8,8 @@ import { useEffect } from 'react'
 import Categories from './components/Categories.jsx'
 import About from './components/About.jsx'
 import Service from './components/Service.jsx'
+import  Contact  from './components/Contact.jsx'
+import Footer from './components/Footer.jsx'
 
 function App() {
 useEffect(() => {
@@ -26,6 +28,8 @@ useEffect(() => {
  <Categories />
  <About/>
  <Service />
+ <Contact />
+ <Footer />
  </>
   )
 }

@@ -192,7 +192,7 @@ const Product = () => {
   //   //  console.log(listDt)
   // },[])
   return (
-    <section className=" py-20 bg-black overflow-hidden">
+    <section className=" py-25 bg-black overflow-hidden" id='product'>
       <div className="container mx-auto px-6 md:px-10">
         <div
           data-aos='zoom-in'

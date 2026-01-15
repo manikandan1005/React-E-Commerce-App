@@ -41,8 +41,8 @@ const list=[
 
 const Service=()=>(
     <>
-    <div className="overflow-hidden py-20 min-h-screen">
-        <section id="service" className="flex justify-center px-3">
+    <div className="overflow-hidden py-25 min-h-screen" id="service">
+        <section  className="flex justify-center px-3">
             <div
             className="w-full max-w-6xl">
                 <div className="text-center mb-12"

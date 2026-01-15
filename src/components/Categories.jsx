@@ -50,11 +50,11 @@ const Categories=()=>{
         },
     ]
     return(
-        <section 
+        <section  id='categories'
         data-aos='fade-right'
         data-aos-delay='300'
         data-aos-duration='1500'
-        className="bg-white py-20 overflow-hidden">
+        className="bg-white py-25 overflow-hidden max-h-screen">
             {/* <div className='container mx-auto px-6'> */}
                             <div className='flex justify-center items-center mb-10'>
                 <h1 className='text-2xl font-bold text-[#f1062d]'>Product <span className='text-2xl font-bold text-black'>Categories</span></h1>
